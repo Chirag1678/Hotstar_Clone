@@ -340,3 +340,14 @@ body {
 .nxt-btn:hover img {
     opacity: 1;
 }
+
+body::-webkit-scrollbar {
+    background-color: #1f80e0;
+    border-radius: 5px;
+    width: 5px;
+}
+
+body::-webkit-scrollbar-thumb {
+    background: #fff;
+    border-radius: 20px;
+}
